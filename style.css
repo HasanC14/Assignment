@@ -25,7 +25,6 @@ p {
 .tk div {
     background-color: rgba(220, 220, 220, 0.5);
     padding: 0% 10px 0% 10px;
-    /* box-shadow: 3px 3px 10px 1px gray; */
     border-radius: 5px;
 }
 
@@ -41,7 +40,7 @@ p {
     font-size: large;
     color: white;
     text-decoration: none;
-    background-color: rgb(219, 86, 9);
+    background-color: rgb(219, 58, 9);
     padding: 10px;
     border-radius: 5px;
 }
@@ -125,4 +124,49 @@ h2 {
 
 .how img {
     width: 80%;
+    box-shadow: 3px 3px 10px 1px gray;
+}
+
+.update {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.button1 {
+    font-size: large;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.button2 {
+    font-size: large;
+    color: white;
+    background-color: rgb(219, 58, 9);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.orange {
+    color: rgba(255, 68, 0, 0.822);
+    font-family: 'Italianno';
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248, 220, 177, 0.4);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(1, 1, 29);
 }
