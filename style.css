@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+p {
+    color: rgb(222, 225, 226);
+    padding-bottom: 2%;
+}
+
+.today {
+    color: black;
+}
+
+.tk {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tk div {
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 0% 4% 0% 4%;
+    /* box-shadow: 3px 3px 10px 1px gray; */
+    border-radius: 5px;
+}
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 10%;
+}
+
+.button {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(219, 86, 9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#other {
+    color: rgba(128, 128, 128, 0.5);
+    padding-top: 5%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h2 {
+    color: gray;
+}
+
+#two {
+    border: 2px solid orangered;
+    background-color: rgba(255, 68, 0, 0.2);
+}
+
+.db {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ammount {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    color: black;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box div {
+    width: 50%;
+    margin: 3%;
+    padding: 4% 2% 4% 2%;
+    border-radius: 5px;
+
+}
+
+.black {
+    color: black;
+}
+
+.c1 {
+    background-color: rgba(135, 207, 235, 0.2);
+}
+
+.c2 {
+    background-color: rgba(255, 192, 203, 0.2);
+}
+
+.c3 {
+    background-color: rgba(248, 220, 177, 0.4);
+}
