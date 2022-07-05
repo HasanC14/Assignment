@@ -91,7 +91,7 @@ h2 {
 .box div {
     width: 50%;
     margin: 2%;
-    padding: 2%;
+    padding: 3% 2% 1% 1%;
     border-radius: 5px;
 }
 
@@ -166,7 +166,7 @@ form {
 }
 
 footer {
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     background-color: rgb(1, 1, 29);
 }
