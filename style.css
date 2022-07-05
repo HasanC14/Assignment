@@ -24,7 +24,7 @@ p {
 
 .tk div {
     background-color: rgba(220, 220, 220, 0.5);
-    padding: 0% 4% 0% 4%;
+    padding: 0% 10px 0% 10px;
     /* box-shadow: 3px 3px 10px 1px gray; */
     border-radius: 5px;
 }
@@ -73,8 +73,10 @@ h2 {
     text-align: center;
 }
 
-.plan {
-    display: flex;
+.plan,
+.ammount {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .text {
@@ -89,10 +91,9 @@ h2 {
 
 .box div {
     width: 50%;
-    margin: 3%;
-    padding: 4% 2% 4% 2%;
+    margin: 2%;
+    padding: 2%;
     border-radius: 5px;
-
 }
 
 .black {
@@ -109,4 +110,19 @@ h2 {
 
 .c3 {
     background-color: rgba(248, 220, 177, 0.4);
+}
+
+.how {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.how div {
+    width: 60%;
+    padding: 5% 0% 5% 0%;
+}
+
+.how img {
+    width: 80%;
 }
