@@ -127,27 +127,43 @@ h2 {
     box-shadow: 3px 3px 10px 1px gray;
 }
 
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    padding: 5% 2% 2% 5%;
+    border-radius: 10px;
+    box-shadow: 8px 12px 25px 1px gray;
+    text-align: center;
+}
+
+.social img {
+    width: 30%;
+}
+
 .update {
     text-align: center;
     padding-bottom: 10%;
 }
 
 .button1 {
-    font-size: large;
+    font-size: small;
     color: white;
     background-color: rgba(128, 128, 128, 0.2);
     padding: 10px;
-    border-radius: 5px;
-    border-color: white;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
 }
 
 .button2 {
-    font-size: large;
+    font-size: small;
     color: white;
     background-color: rgb(219, 58, 9);
     padding: 10px;
-    border-radius: 5px;
-    border-color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    outline: none;
 }
 
 .orange {
@@ -156,13 +172,16 @@ h2 {
 }
 
 form {
-    display: flex;
-    justify-content: center;
     background-color: rgba(248, 220, 177, 0.4);
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
