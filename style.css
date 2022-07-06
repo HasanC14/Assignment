@@ -99,6 +99,21 @@ h2 {
     color: black;
 }
 
+#other {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#other input {
+    padding: 5%;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
 .c1 {
     background-color: rgba(135, 207, 235, 0.2);
 }
@@ -147,20 +162,17 @@ h2 {
 }
 
 .button1 {
-    font-size: small;
-    color: white;
     background-color: rgba(128, 128, 128, 0.2);
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
     border-radius: 5px 0px 0px 5px;
     border: none;
     outline: none;
 }
 
 .button2 {
-    font-size: small;
     color: white;
     background-color: rgb(219, 58, 9);
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
     border-radius: 0px 5px 5px 0px;
     border: none;
     outline: none;
