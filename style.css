@@ -6,8 +6,10 @@ body {
 }
 
 #heading {
-    font-size: 300%;
+    font-size: 350%;
     color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 p {
@@ -40,7 +42,7 @@ p {
     font-size: large;
     color: white;
     text-decoration: none;
-    background-color: rgb(219, 58, 9);
+    background-color: #FF0063;
     padding: 10px;
     border-radius: 5px;
 }
@@ -58,7 +60,7 @@ h2 {
 }
 
 #two {
-    border: 2px solid orangered;
+    border: 2px solid #FF0063;
     background-color: rgba(255, 68, 0, 0.2);
 }
 
@@ -171,7 +173,7 @@ h2 {
 
 .button2 {
     color: white;
-    background-color: rgb(219, 58, 9);
+    background-color: #FF0063;
     padding: 10px 25px 10px 25px;
     border-radius: 0px 5px 5px 0px;
     border: none;
@@ -179,7 +181,7 @@ h2 {
 }
 
 .orange {
-    color: rgba(255, 68, 0, 0.822);
+    color: #FF0063;
     font-family: 'Italianno';
 }
 
