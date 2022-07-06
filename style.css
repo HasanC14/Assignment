@@ -5,14 +5,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1,
+#heading {
+    font-size: 300%;
+    color: white;
+}
+
 p {
     color: rgb(222, 225, 226);
     padding-bottom: 2%;
-}
-
-.today {
-    color: black;
 }
 
 .tk {
@@ -102,7 +102,7 @@ h2 {
 #other {
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
     margin-left: 20%;
     margin-right: 20%;
 }
