@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed';
 }
 
 #heading {
@@ -45,6 +43,7 @@ p {
     background-color: #FF0063;
     padding: 10px;
     border-radius: 5px;
+    background-image: linear-gradient(#ff9966, #ff5e62);
 }
 
 #other {
@@ -60,8 +59,8 @@ h2 {
 }
 
 #two {
-    border: 2px solid #FF0063;
-    background-color: rgba(255, 68, 0, 0.2);
+    border: 2px solid #ff5e62;
+    background-color: #fcd7d8;
 }
 
 .db {
@@ -117,15 +116,15 @@ h2 {
 }
 
 .c1 {
-    background-color: rgba(135, 207, 235, 0.2);
+    background-color: #ff797b;
 }
 
 .c2 {
-    background-color: rgba(255, 192, 203, 0.2);
+    background-color: #fa8e8f;
 }
 
 .c3 {
-    background-color: rgba(248, 220, 177, 0.4);
+    background-color: #ff9966;
 }
 
 .how {
@@ -142,6 +141,7 @@ h2 {
 .how img {
     width: 80%;
     box-shadow: 3px 3px 10px 1px gray;
+    border-radius: 5px;
 }
 
 .social {
@@ -152,6 +152,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 8px 12px 25px 1px gray;
     text-align: center;
+    background-image: linear-gradient(#feb47b, #ff7e5f);
 }
 
 .social img {
@@ -173,7 +174,7 @@ h2 {
 
 .button2 {
     color: white;
-    background-color: #FF0063;
+    background-image: linear-gradient(#ff9966, #ff5e62);
     padding: 10px 25px 10px 25px;
     border-radius: 0px 5px 5px 0px;
     border: none;
@@ -181,12 +182,12 @@ h2 {
 }
 
 .orange {
-    color: #FF0063;
+    color: #ff5e62;
     font-family: 'Italianno';
 }
 
 form {
-    background-color: rgba(248, 220, 177, 0.4);
+    background-color: #fac4a8;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 20%;
